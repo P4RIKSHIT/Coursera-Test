@@ -1,0 +1,49 @@
+/* Desktop view (992px and above) */
+@media only screen and (min-width: 992px) {
+  /* styles for sections in desktop view */
+  .section {
+    width: 33.33%;
+    float: left;
+  }
+  /* styles for section title region in desktop view */
+  .section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* Tablet view (768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* styles for sections in tablet view */
+  .section {
+    width: 50%;
+    float: left;
+  }
+  /* styles for third section in tablet view */
+  .section:nth-of-type(3) {
+    width: 100%;
+    clear: both;
+  }
+  /* styles for section title region in tablet view */
+  .section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* Mobile view (767px and below) */
+@media only screen and (max-width: 767px) {
+  /* styles for sections in mobile view */
+  .section {
+    width: 100%;
+    clear: both;
+  }
+  /* styles for section title region in mobile view */
+  .section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
